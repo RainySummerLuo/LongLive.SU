@@ -29,6 +29,10 @@ body {
 #content {
     text-align: center;
     font-family: "YanSong", serif;
-    font-size: 5vmin;
+    font-size: 4vmin;
     color: #ffd700;
+}
+
+#su {
+    font-size: 10vmin;
 }
