@@ -1,0 +1,34 @@
+/* Originally create by Kiryu | https://www.kiryu.it | mail@nekomimi.it */
+/* Revised by RainySummer | https:/rainysummer.top | hi@rainysummer.top */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Noto+Serif+JP:wght@500&display=swap');
+
+@font-face {
+    font-family: "YanSong";
+    src: url("font/yan.otf");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    background: #bc0000 url("image/background.png") no-repeat center;
+    background-size: contain;
+    user-select: none;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: url("image/cursor.png"), default;
+}
+
+#content {
+    text-align: center;
+    font-family: "YanSong", serif;
+    font-size: 5vmin;
+    color: #ffd700;
+}
