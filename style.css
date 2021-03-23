@@ -59,3 +59,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#star {
+    background-image: url("image/star.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
