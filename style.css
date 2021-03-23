@@ -16,6 +16,8 @@ body {
     background: #bc0000 url("image/background.png") no-repeat center;
     user-select: none;
     margin: auto;
+    padding-left: 4%;
+    padding-right: 4%;
     height: 100%;
     align-items: center;
     justify-content: center;
