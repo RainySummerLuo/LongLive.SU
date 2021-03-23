@@ -42,17 +42,16 @@ body {
     word-break: keep-all;
 }
 
-#heading {
-    margin: 0;
-    padding: 0;
-}
-
 #headline {
-    margin-bottom: 0;
+    margin-bottom: 5vmin;
 }
 
 #su {
     font-size: 16vmin;
+}
+
+#su ruby rt {
+    font-size: 6vmin;
 }
 
 #year {
