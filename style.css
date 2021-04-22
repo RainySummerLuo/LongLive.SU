@@ -16,8 +16,6 @@ body {
     background: #bc0000 url("image/background.png") no-repeat center;
     user-select: none;
     margin: auto;
-    padding-left: 4%;
-    padding-right: 4%;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -28,6 +26,8 @@ body {
 @media screen and (orientation: portrait) {
     body {
         background-size: cover;
+        padding-left: 8vw;
+        padding-right: 8vw;
     }
 
     #poem {
@@ -41,7 +41,7 @@ body {
 
     #su {
         margin-top: 6vh;
-        margin-bottom: 3vh;
+        margin-bottom: 5vh;
     }
 
     #yearland {
@@ -49,19 +49,26 @@ body {
     }
 
     #yearport {
-        font-size: 7.6vw;
+        font-size: 7.2vw;
+        line-height: 6vh;
         margin-top: 3vh;
-        margin-bottom: 6vh;
+        margin-bottom: 8vh;
+    }
+
+    #star {
+        font-size: 6vw;
     }
 
     #progress {
-        height: 0.8vh;
+        height: 0.6vh;
     }
 }
 
 @media screen and (orientation: landscape) {
     body {
         background-size: contain;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     #poem {
@@ -86,6 +93,10 @@ body {
         font-size: 5vmin;
     }
 
+    #star {
+        font-size: 4.2vmin;
+    }
+
     #progress {
         height: 0.8vh;
     }
@@ -94,7 +105,7 @@ body {
 #content {
     text-align: center;
     align-items: center;
-    font-size: 5vmin;
+    font-size: 4.8vmin;
     color: #ffd700;
     word-break: keep-all;
 }
