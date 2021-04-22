@@ -17,18 +17,22 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css" integrity="sha512-CIYsJUa3pr1eoXlZFroEI0mq0UIMUqNouNinjpCkSWo3Bx5NRlQ0OuC6DtEB/bDqUWnzXc1gs2X/g52l36N5iw==" crossorigin="anonymous" />
     <script src="js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js" integrity="sha512-RWosNnDNw8FxHibJqdFRySIswOUgYhFxnmYO3fp+BgCU7gfo4z0oS7mYFBvaa8qu+axY39BmQOrhW3Tp70XbaQ==" crossorigin="anonymous"></script>
+
 </head>
 
 <body id="main" oncontextmenu="return false;">
 <div id="container">
     <img alt="Bai Nian" src="image/100.png" id="bainian">
-    <p id="email">
+    <p id="body">
         还有&nbsp;&nbsp;<span id="day"></span>&nbsp;&nbsp;天
         <br/>
+        <!--suppress HttpUrlsUsage -->
         <a href="http://www.xinhuanet.com/politics/fdbnlqhxzc/index.htm" target="_blank">奋斗百年路&emsp;启航新征程</a>
     </p>
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" height=52 src="//music.163.com/outchain/player?type=2&id=5281551&auto=1&height=32"></iframe>
+    <div id="aplayer"></div>
 </div>
 <script>
     const daySpan = document.getElementById('day');
@@ -40,6 +44,21 @@
         const time = getInterval(start, end);
         setInnerText(daySpan, time.day);
     }
+
+    const ap = new APlayer({
+        container: document.getElementById('aplayer'),
+        autoplay: true,
+        lrcType: 3,
+        theme: '#DF0012',
+        audio: [{
+            name: '国际歌',
+            artist: '中央乐团合唱队',
+            url: 'Internationale.ogg',
+            cover: 'Internationale.png',
+            lrc: 'Internationale.lrc',
+        }]
+    });
+    ap.init();
 </script>
 </body>
 </html>
