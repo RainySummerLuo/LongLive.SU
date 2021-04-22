@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Heiti";
-    src: url("ht.woff") format("woff");
+    src: url("heiti.woff") format("woff");
 }
 
 html {
@@ -36,6 +36,10 @@ body {
         margin-bottom: 15vmin;
         line-height: 18vmin;
     }
+
+    #day {
+        font-size: 12vmin;
+    }
 }
 
 @media screen and (orientation: landscape) {
@@ -55,6 +59,10 @@ body {
         margin-top: 3vmin;
         margin-bottom: 10vmin;
         line-height: 9vmin;
+    }
+
+    #day {
+        font-size: 3vw;
     }
 }
 
