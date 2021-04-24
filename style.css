@@ -49,18 +49,19 @@ body {
     }
 
     #yearport {
-        font-size: 7.2vw;
+        font-size: 7.4vw;
         line-height: 6vh;
         margin-top: 3vh;
-        margin-bottom: 8vh;
     }
 
     #star {
-        font-size: 6vw;
+        font-size: 3.3vh;
+        line-height: 6vh;
     }
 
     #progress {
         height: 0.6vh;
+        margin-top: 10vh;
     }
 }
 
@@ -82,7 +83,7 @@ body {
 
     #su {
         margin-top: 4vh;
-        margin-bottom: 2vh;
+        margin-bottom: 0;
     }
 
     #yearport {
@@ -91,10 +92,12 @@ body {
 
     #yearland {
         font-size: 5vmin;
+        margin-top: 1vh;
+        margin-bottom: 10vh;
     }
 
     #star {
-        font-size: 4.2vmin;
+        background-size: 4vh;
     }
 
     #progress {
@@ -125,15 +128,15 @@ body {
 
 #star {
     background-image: url("image/star.svg");
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    align-content: center;
     cursor: url("image/cursor/hand.cur"), pointer;
 }
 
 #progress-bar {
     background-color: transparent;
-    height: 0.5vmin;
+    display: none;
 }
 
 #progress {
