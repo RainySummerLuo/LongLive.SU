@@ -68,6 +68,11 @@ body {
     text-align: center;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:active {
     color: #DF0012;
+}
+
+a:hover {
+    color: #DF0012;
+    text-decoration: none;
 }
