@@ -130,6 +130,7 @@ body {
     background-image: url("image/star.svg");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     align-content: center;
     cursor: url("image/cursor/hand.cur"), pointer;
 }
