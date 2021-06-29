@@ -26,14 +26,20 @@ body {
         margin-bottom: 2vmin;
     }
 
+    #word {
+        margin-top: 2vmin;
+        width: 85vw;
+        margin-bottom: 2vmin;
+    }
+
     #body {
-        font-size: 5vw;
+        font-size: 7vw;
         margin-bottom: 20vmin;
         line-height: 18vmin;
     }
 
     #day {
-        font-size: 10vmin;
+        font-size: 12vmin;
     }
 
     #player {
@@ -48,14 +54,19 @@ body {
         margin-bottom: 0;
     }
 
+    #word {
+        width: 30vw;
+        margin-bottom: 0;
+    }
+
     #body {
-        font-size: 1.6vw;
+        font-size: 1.7vw;
         margin-bottom: 10vh;
         line-height: 9vmin;
     }
 
     #day {
-        font-size: 2.8vw;
+        font-size: 3vw;
     }
 
     #player {
